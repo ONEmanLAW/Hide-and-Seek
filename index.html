@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hide & Seek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="mainMenu">
+        <h1>Welcome to Find the Bazooka!</h1>
+        <img id="playImage" src="Images/mainMenuButton/play.png" alt="Play Game">
+    </div>
+
+    <div class="gridContainer" id="grid"></div>
+    <p id="clickCount" class="hideClickCount">Remaining Clicks: 10</p>
+    <p id="resultMessage"></p>
+
+    <img id="playMusicButton" src="soundElement/soundOff.png" alt="Play Music">
+    <audio id="backgroundMusic" loop>
+        <source src="soundElement/Act of War.mp3" type="audio/mp3">
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
